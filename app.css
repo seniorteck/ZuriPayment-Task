@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;0,900;1,300&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+body{
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+    width: 85%;
+    height: auto;
+    margin: 10% auto;
+    padding: 10px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.wrapper h2{
+  width: 100%;
+  font-size: 1.3rem;
+  margin: 10px auto;
+  background: linear-gradient(#FEB700, #FF8800);
+  color: #fff;
+  padding: 30px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  border-radius: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.input-box{
+    position: relative;
+}
+
+.name{
+    width: 100%;
+    height: 30px;
+    padding: 25px 40px;
+    background: transparent;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.fa-user{
+    position: absolute;
+    left: 20px;
+    top: 38px;
+}
+
+.fa-envelope{
+    position: absolute;
+    left: 20px;
+    top: 38px;
+}
+
+.dob{
+    width: 100%;
+    height: 30px;
+    padding: 25px 40px;
+    background: transparent;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+label[for="b1"]{
+    background: transparent;
+    padding: 10px 30px;
+    display: inline-block;
+    width: 50%;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+label[for="b2"]{
+    background: transparent;
+    padding: 10px 30px;
+    display: inline-block;
+    width: 48%;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+input[type="radio"]{
+    position: absolute;
+    top: 60px;
+}
+
+
+
+.fa-credit-card{
+    position: absolute;
+    left: 20px;
+    top: 38px;
+}
+
+
+.input-group:nth-last-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.input-group:nth-last-of-type(2) input[type="tel"]{
+    padding: 25px 40px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.input-group:nth-last-of-type(2) .fa-user{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+.input-group:nth-last-of-type(2) select{
+    padding: 6px 20px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid red;
+    color: #fff;
+    border-radius: 20px;
+}
+
+span{
+    margin: 25px;
+}
+
+.input-group:nth-last-of-type(4) input[type="radio"]{
+    position: absolute;
+    top: 50px;
+}
+
+button{
+    width: 100%;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(#FEB700, #FF8800);
+    border: none;
+    outline: 0;
+    border-radius: 20px;
+}
+
+button:hover{
+    background: linear-gradient(25deg, #FEB700, #FF8800);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
